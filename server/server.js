@@ -11,7 +11,7 @@ app.use(express.json());
 // DB connect
 mongoose
   .connect("mongodb://127.0.0.1:27017/mern_billing_db")
-  .then(() => console.log("✅ MongoDB connected"))
+  .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error("Mongo error:", err.message));
 
 // Routes

@@ -62,7 +62,7 @@ function BillingRedux() {
   return (
     <div className="container mt-4">
       <div className="d-flex justify-content-between align-items-center">
-        <h2>🧾 Billing System (Redux)</h2>
+        <h2>Billing System (Redux)</h2>
 
         <button className="btn btn-primary" onClick={() => navigate("/invoice")}>
           View Orders

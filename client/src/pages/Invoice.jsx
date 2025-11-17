@@ -17,7 +17,7 @@ export default function InvoicePage() {
 
   return (
     <div className="container mt-4">
-      <h2 className="mb-3">📄 All Invoices</h2>
+      <h2 className="mb-3">All Invoices</h2>
 
       {orders.length === 0 ? (
         <p>No invoices found</p>

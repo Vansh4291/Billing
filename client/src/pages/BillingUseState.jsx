@@ -50,7 +50,7 @@ function BillingUseState() {
     });
 
     if (res.data.success) {
-      alert("✅ Order placed successfully!");
+      alert("Order placed successfully!");
       fetchOrders();
       clearOrder(); // reset qtys
     }
@@ -69,7 +69,7 @@ function BillingUseState() {
   return (
     <div className="container mt-4">
       <div className="d-flex justify-content-between align-items-center">
-        <h2>🧾 Billing System</h2>
+        <h2>Billing System</h2>
         <button
           className="btn btn-primary"
           onClick={() => navigate("/invoice")}
